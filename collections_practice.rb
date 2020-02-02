@@ -18,9 +18,9 @@ def reverse_array(array)
   array.reverse 
 end 
 
-#def kesha_maker
+def kesha_maker
 
-#end 
+end 
 
 def find_a(array)
   array.select{|w| w.start_with?("a")}
