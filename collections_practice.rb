@@ -34,9 +34,9 @@ def add_s(array)
   array.collect do |w|
     if 
       w != array[1]
-      return w << "s"
+      w << "s"
     else 
+      w 
     end 
   end
-  add_s
 end 
