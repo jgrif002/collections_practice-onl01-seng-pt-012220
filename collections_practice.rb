@@ -32,9 +32,10 @@ end
 
 def add_s(array)
   array.collect do |w|
-  if 
-    w != array[1]
-    return w << "s"
-  else 
-  end 
+    if 
+      w != array[1]
+      return w << "s"
+    else 
+    end 
+  end
 end 
