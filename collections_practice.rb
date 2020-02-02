@@ -31,11 +31,10 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.collect {|w| w << "s"}
+  array.collect do |w|
   if 
-    w != feet
-    return feet 
-  else w 
-    return w 
+    w != array[1]
+    return w << "s"
+  else 
   end 
 end 
